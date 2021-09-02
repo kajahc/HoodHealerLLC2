@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Order Form</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/CSS/orderForm.css">
+    </head>
+    <body>
+    <div class="grid-container">
+   
+      <nav class="navigation" id="original">
+        <ul>
+            <li><a href="/index.html" target="_blank">Home</a> </li>
+            <li><a href="aboutUs.html" target="_blank">About Us</a></li>  
+            <li><a href="/order.html" target="_blank">Order</a></li>    
+            <li><a href="/orderForm.html" target="_blank">Order form</a></li>    
+            <li><a href="/gallery.html" target="_blank">Gallery</a></li>
+        </ul>
+        </nav> 
+      <h1 class="name" id="order-form"> Order Form</h1>
+      <div class="blackLogo"> 
+        <img src="/images/hoodHealerBlack.jpg" alt="Black Hood Healer Logo" width="200" height="80" class="logo" id="Black"></div> 
+  
+       <div class="pinkLogo"> 
+        <img src="/images/hoodHealerPink.jpg" alt="Pink Hood Healer Logo" width="200" height="80" class="logo" id="Pink" ></div>
+           
+     <div class="container" id="all">
+      <div class="container" id="name">
+        <h2>Name</h2>
+        <div><label for="Fname">First Name:</label></div>
+        <div><input type="text" id="Fname" name="first-name"></div>
+
+        <div><label for="MInitial">Middle Initial:</label></div>
+        <div><input type="text" id="MInitial" name="middle-initial"></div>
+
+        <div><label for="Lname">Last Name:</label></div>
+        <div><input type="text" id="Lname" name="last-name"></div>
+      </div>
+
+      <div class="container" id="billing-address">
+      <h2 class="heading" id="billingAddress">Billing Address</h2>
+      <label for="Street-address">Street Address:</label>
+        <input type="text" id="Street-address" name="StreetAdress">
+        <label for="apartment-PO">Apt # or PO Box:</label>
+        <input type="number" id="apartment-PO" name="apartmentPOBox">
+        <!--City, state ; zip code- number; apt number or po box input - number-->
+        
+
+
+        <br>
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city">
+
+
+          <form>
+           <fieldset>
+             <label for="state">State</label>
+                <select id="state" name="state"><option value="---">---</option><option value="Alabama">Alabama</option><option value="Alaska">Alaska</option><option value="Arizona">Arizona</option><option value="Arkansas">Arkansas</option><option value="California">California</option><option value="Colorado">Colorado</option><option value="Connecticut">Connecticut</option><option value="Delaware">Delaware</option><option value="District of Columbia">District of Columbia</option><option value="Florida">Florida</option><option value="Georgia">Georgia</option><option value="Guam">Guam</option><option value="Hawaii">Hawaii</option><option value="Idaho">Idaho</option><option value="Illinois">Illinois</option><option value="Indiana">Indiana</option><option value="Iowa">Iowa</option><option value="Kansas">Kansas</option><option value="Kentucky">Kentucky</option><option value="Louisiana">Louisiana</option><option value="Maine">Maine</option><option value="Maryland">Maryland</option><option value="Massachusetts">Massachusetts</option><option value="Michigan">Michigan</option><option value="Minnesota">Minnesota</option><option value="Mississippi">Mississippi</option><option value="Missouri">Missouri</option><option value="Montana">Montana</option><option value="Nebraska">Nebraska</option><option value="Nevada">Nevada</option><option value="New Hampshire">New Hampshire</option><option value="New Jersey">New Jersey</option><option value="New Mexico">New Mexico</option><option value="New York">New York</option><option value="North Carolina">North Carolina</option><option value="North Dakota">North Dakota</option><option value="Northern Marianas Islands">Northern Marianas Islands</option><option value="Ohio">Ohio</option><option value="Oklahoma">Oklahoma</option><option value="Oregon">Oregon</option><option value="Pennsylvania">Pennsylvania</option><option value="Puerto Rico">Puerto Rico</option><option value="Rhode Island">Rhode Island</option><option value="South Carolina">South Carolina</option><option value="South Dakota">South Dakota</option><option value="Tennessee">Tennessee</option><option value="Texas">Texas</option><option value="Utah">Utah</option><option value="Vermont">Vermont</option><option value="Virginia">Virginia</option><option value="Virgin Islands">Virgin Islands</option><option value="Washington">Washington</option><option value="West Virginia">West Virginia</option><option value="Wisconsin">Wisconsin</option><option value="Wyoming">Wyoming</option></select>
+             </fieldset>
+          </form> 
+        
+          <label for="zip-code">Zip Code:</label>
+          <input type="number" id="zip-code" name="zipcode">
+
+          <input type="checkbox" id="mailing-address" name="mailingaddress" value="Mailing address">
+          <label for="mailing-address"> Mailing address is the same as billing address.</label><br>
+
+
+
+        
+         
+
+        <div class="container" id="mailing_address">
+        <h2 class="heading" id="mailingAddress">Mailing Address</h2>
+
+  
+        <label for="Street_address">Street Address:</label>
+        <input type="text" id="Street_address" name="StreetAdress">
+      
+  
+          <label for="apartment_PO">Apartment number or PO Box:</label>
+          <input type="number" id="apartment_PO" name="apartmentPOBox">
+          <!--City, state ; zip code- number; apt number or po box input - number-->
+          <label for="zip_code">Zip Code:</label>
+          <input type="number" id="zip_code" name="zipcode">
+  
+  
+          <label for="City">City:</label>
+          <input type="text" id="City" name="city">
+  
+  
+         
+  
+          <form>
+            <fieldset>
+               <label for="State">State</label>
+                  <select id="State" name="state"><option value="---">---</option><option value="Alabama">Alabama</option><option value="Alaska">Alaska</option><option value="Arizona">Arizona</option><option value="Arkansas">Arkansas</option><option value="California">California</option><option value="Colorado">Colorado</option><option value="Connecticut">Connecticut</option><option value="Delaware">Delaware</option><option value="District of Columbia">District of Columbia</option><option value="Florida">Florida</option><option value="Georgia">Georgia</option><option value="Guam">Guam</option><option value="Hawaii">Hawaii</option><option value="Idaho">Idaho</option><option value="Illinois">Illinois</option><option value="Indiana">Indiana</option><option value="Iowa">Iowa</option><option value="Kansas">Kansas</option><option value="Kentucky">Kentucky</option><option value="Louisiana">Louisiana</option><option value="Maine">Maine</option><option value="Maryland">Maryland</option><option value="Massachusetts">Massachusetts</option><option value="Michigan">Michigan</option><option value="Minnesota">Minnesota</option><option value="Mississippi">Mississippi</option><option value="Missouri">Missouri</option><option value="Montana">Montana</option><option value="Nebraska">Nebraska</option><option value="Nevada">Nevada</option><option value="New Hampshire">New Hampshire</option><option value="New Jersey">New Jersey</option><option value="New Mexico">New Mexico</option><option value="New York">New York</option><option value="North Carolina">North Carolina</option><option value="North Dakota">North Dakota</option><option value="Northern Marianas Islands">Northern Marianas Islands</option><option value="Ohio">Ohio</option><option value="Oklahoma">Oklahoma</option><option value="Oregon">Oregon</option><option value="Pennsylvania">Pennsylvania</option><option value="Puerto Rico">Puerto Rico</option><option value="Rhode Island">Rhode Island</option><option value="South Carolina">South Carolina</option><option value="South Dakota">South Dakota</option><option value="Tennessee">Tennessee</option><option value="Texas">Texas</option><option value="Utah">Utah</option><option value="Vermont">Vermont</option><option value="Virginia">Virginia</option><option value="Virgin Islands">Virgin Islands</option><option value="Washington">Washington</option><option value="West Virginia">West Virginia</option><option value="Wisconsin">Wisconsin</option><option value="Wyoming">Wyoming</option></select>
+               </fieldset>
+            </form>
+          
+          
+  </div>
+</div>
+
+     </div>
+     <div class="containter" id="all2">
+  <div class="container" id="product-choice">
+                <h2 class="heading" id="product-Choice">Choose your product:</h2>
+                <form>
+                  <input type="radio" id="Hat" name="Product" value="HAT">
+                  <label for="Hat">Hat</label><br>
+
+                  <input type="radio" id="Shirt" name="Product" value="SHIRT">
+                  <label for="Shirt">Shirt</label><br>
+
+                  <input type="radio" id="Hoodie" name="Product" value="HOODIE">
+                  <label for="Hoodie">Hoodie</label><br>
+
+                  <input type="radio" id="Pants" name="Product" value="PANTS">
+                  <label for="Pants">Pants</label><br>
+
+                </form>
+  </div>
+                        <div class="container" id="size-choice">
+                         <h2 class="heading" id="size-Choice">Choose your size:</h2>
+                        <form>
+                          <input type="radio" id="Small" name="Size" value="SMALL">
+                          <label for="Small">Small</label><br>
+
+                          <input type="radio" id="Medium" name="Size" value="MEDIUM">
+                          <label for="Medium">Medium</label><br>
+
+                          <input type="radio" id="Large" name="Size" value="LARGE">
+                          <label for="Large">Large</label><br>
+
+                          <input type="radio" id="X-Large" name="Size" value="X-LARGE">
+                          <label for="X-Large">X-Large</label><br>
+
+                          <input type="radio" id="XX-Large" name="Size" value="XX-LARGE">
+                          <label for="XX-Large">XX-Large</label><br>
+
+                          <input type="radio" id="XXX-Large" name="Size" value="XXX-LARGE">
+                          <label for="XXX-Large">XXX-Large</label><br>
+
+                          <input type="radio" id="XXXX-Large" name="Size" value="XXXX-LARGE">
+                          <label for="XXXX-Large">XXXX-Large</label><br>
+
+                          <input type="radio" id="XXXXX-Large" name="Size" value="XXXXX-LARGE">
+                          <label for="XXXXX-Large">X-Large</label><br>
+                        </form>
+                      </div>
+
+                      <div class="container" id="logo-color">
+                        <h2 class=" heading" id="logo-Color">Choose your style of logo:</h2>
+
+                <form>
+                  <input type="radio" id="pink" name="logoColor" value="PINK">
+                  <label for="pink">Pink</label><br>
+
+                  <input type="radio" id="black" name="logoColor" value="BLACK">
+                  <label for="black">Black</label><br>
+                  <!-- <input type="radio" id="Custom" name="logoColor" value="CUSTOM">
+                  <label for="Custom">Custom</label> -->
+                </form> 
+              </div>
+                      <input type="submit" value="Submit">
+            </div>
+                  
+  </body>
+    <footer><p>copyright Kajah's Krafts</p>
+    <a href="/contact.html" target="_blank">Contact Us</a>
+    </footer>
+</html>
