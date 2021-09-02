@@ -1,0 +1,73 @@
+/* Skeleton of pages below */
+div.grid-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+nav#original.navigation,
+h1 {
+  grid-column: 4 / 10;
+  grid-row: 1 / 2;
+  text-align: center;
+}
+/* Fix the images, not correctly displaying  */
+div.blackLogo {
+  grid-column: 1 / 4;
+  grid-row: 1 / 2;
+  image-resolution: from-image 300dpi;
+}
+div.pinkLogo {
+  grid-column: 10 / 13;
+  grid-row: 1 / 2;
+}
+
+ul li {
+  display: inline;
+  list-style: none;
+}
+/* Footer not responding to grid dimensons */
+footer {
+  grid-column: 1 / 13;
+  grid-row: 4 / 5;
+  text-align: center;
+}
+h1 {
+  padding: 10px;
+}
+table {
+  grid-column: 8 / 13;
+  grid-row: 3 / 4;
+  border: 0;
+  row-gap: 10;
+  /* width:100%; */
+}
+div.dimensions {
+  grid-column: 1 / 8;
+  grid-row: 3 / 4;
+}
+/* div#product-options.navigation {
+
+} */
+.shirt {
+    grid-column: 4 / 7 ;
+    grid-row: 2 / 4 ;
+}
+
+ .pants {
+    grid-column: 7 / 10;
+    grid-row: 2 /4 ;
+}
+
+.hoodie {
+    grid-column: 10 / 13;
+    grid-row: 2 / 4;
+}
+.hat {
+    grid-column: 1 / 4 ;
+    grid-row: 2 / 4 ;
+} 
+/* h2#size-chart-title.heading {
+    text-align: center;
+    grid-column: 3 / 10;
+    grid-row: 3/4;
+} */

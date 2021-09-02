@@ -1,51 +1,53 @@
 /* Skeleton of pages below */
-.grid-container{
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(4, 1fr);
 }
-nav#original.navigation, h1 {
-    grid-column: 4 / 10;
-    grid-row: 1 / 2;
-        text-align: center;
-    }
+nav#original.navigation,
+h1 {
+  grid-column: 4 / 10;
+  grid-row: 1 / 2;
+  text-align: center;
+}
 
 div.blackLogo {
-            grid-column: 1 / 4;
-            grid-row: 1 / 2; 
-            image-resolution: from-image 300dpi;
-           }
+  grid-column: 1 / 4;
+  grid-row: 1 / 2;
+  image-resolution: from-image 300dpi;
+}
 div.pinkLogo {
-           grid-column: 10 / 13;
-           grid-row: 1 / 2;}
+  grid-column: 10 / 13;
+  grid-row: 1 / 2;
+}
 
 ul li {
-            display: inline;
-            list-style: none;
-        }
+  display: inline;
+  list-style: none;
+}
 
 /* Specific CSS Styling below*/
 div#business-info.container {
-   grid-column: 1 / 13;
-   grid-row: 2 / 3;
+  grid-column: 1 / 13;
+  grid-row: 2 / 3;
 }
 
 h1 {
-    padding: 10px;
+  padding: 10px;
 }
 
 footer {
-    grid-column: 1 / 13;
-    grid-row: 4 / 5;
-    text-align: center;
+  grid-column: 1 / 13;
+  grid-row: 4 / 5;
+  text-align: center;
 }
 
 div.print-services-container {
-    grid-column: 1 / 7;
-    grid-row: 3 / 4;
+  grid-column: 1 / 7;
+  grid-row: 3 / 4;
 }
 
 div#feedback.container {
-    grid-column: 7 / 13;
-    grid-row: 3 /4 ;
+  grid-column: 7 / 13;
+  grid-row: 3 /4;
 }
