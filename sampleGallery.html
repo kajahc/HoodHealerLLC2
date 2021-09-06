@@ -11,7 +11,69 @@
     <link rel="stylesheet" href="/CSS/sampleGallery.css" />
   </head>
   <body>
-    <div class="cards">
+
+<!-- Container for the image gallery -->
+<div class="container">
+
+  <!-- Full-width images with number text -->
+  <div class="mySlides">
+    <div class="numbertext">shirts</div>
+      <img src="images/gallery/black-logo/Shirts/white-tee/no-background/Screenshot_20210824-191951_Mockitup.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">pants</div>
+      <img src="images/gallery/pink-logo/combo/Screenshot_20210824-191608_Mockitup.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">combos</div>
+      <img src="images/gallery/pink-logo/combo/Screenshot_20210824-194413_Mockitup.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">Hoodies</div>
+      <img src="images/gallery/pink-logo/Hoodie/Screenshot_20210824-191911_Mockitup.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">hats</div>
+      <img src="images/gallery/pink-logo/Hat/Screenshot_20210824-191145_Mockitup.jpg" style="width:100%">
+  </div>
+
+
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  <!-- Image text -->
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <!-- Thumbnail images -->
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="images/gallery/black-logo/Shirts/white-tee/no-background/Screenshot_20210824-191951_Mockitup.jpg" style="width:100%" onclick="currentSlide(1)" alt="White tee pink logo">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/gallery/pink-logo/combo/Screenshot_20210824-191608_Mockitup.jpg" style="width:100%" onclick="currentSlide(2)" alt="Combo outfit pink logo">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/gallery/pink-logo/combo/Screenshot_20210824-194413_Mockitup.jpg" style="width:100%" onclick="currentSlide(3)" alt="Combo outfit pink logo">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/gallery/pink-logo/Hoodie/Screenshot_20210824-191911_Mockitup.jpg" style="width:100%" onclick="currentSlide(4)" alt="Hoodie with pink logo">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/gallery/pink-logo/Hat/Screenshot_20210824-191145_Mockitup.jpg" style="width:100%" onclick="currentSlide(5)" alt="Pink logo hat">
+    </div>
+  
+  </div>
+</div>
+
+    <!-- <div class="cards">
       <div class="card">
         <img
           src="images/gallery/pink-logo/combo/Screenshot_20210824-191608_Mockitup.jpg"
@@ -95,7 +157,7 @@
     </div>
     </div>
   </div>
-    </div>
+    </div> -->
     <!-- <span class="material-icons-outlined"> shopping_cart </span> -->
   </body>
 </html>

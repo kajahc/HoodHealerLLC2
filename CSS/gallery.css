@@ -42,13 +42,14 @@ width: 100% ;
 /* Gallery code below  */
 .cards {
   margin: 0 auto;
-  /* max-width: 1000px; */
+  max-width: 1000px; 
   display: grid;
-  grid-template-columns: repeat(5 / 10);
-  grid-template-rows: subgrid;
-  grid-column: 5 / 10;
-  grid-row: 2 / 3; 
+   grid-template-columns: repeat(5, 1fr);
+   grid-template-rows: subgrid;
+  grid-column: 1 / 13;
+  grid-row: 2 / 3;  
   gap: 10px;
+  justify-content: center;
 }
 
 .card {
