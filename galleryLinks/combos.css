@@ -1,0 +1,85 @@
+
+div.trademark > nav#original.navigation, h1 {
+  text-align: center;
+}
+/* Figure out how to move content down */
+div.trademark > div.blackLogo {
+    position: absolute;
+    top: 0;
+    left: 0;
+  image-resolution: from-image 300dpi;
+  padding-bottom: 10px;
+}
+div.trademark > div.pinkLogo {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+div.trademark > nav#original.navigation > ul > li {
+  display: inline;
+}
+
+/* body {
+    
+} */
+
+.site-container {
+    margin: 2rem auto;
+    max-width: calc(100% - 80px);
+font-size: 100%;
+    font-size: 16px;
+    line-height: 1.5;
+    background: #f0f4fb;}
+
+.article-container {
+    display:  grid;
+    grid-template-columns: repeat(auto-fill, minmax(265px, 1fr));
+    gap: 2rem;
+}
+.article-image {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.article-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0 0;
+}
+
+.article-card {
+    background: white;
+    border-radius: 20px;
+    transition: 0.03s;
+}
+.article-card:hover {
+    box-shadow: 0 4px 20px 0 rgba (34,68, 123,0.2);
+    cursor: pointer;
+}
+.article-content {
+   padding: 2rem;
+}
+
+.article-content .card-category {
+        font-size:  0.875rem;
+        text-transform:  uppercase;
+        letter-spacing: 0.1rem;
+        font-weight:  600;
+        color: #6b82a7;
+        display: block;
+        text-decoration: none;
+}
+
+.article-content .card-title {
+    margin: 1rem 0;
+    color:#22447b
+}
+
+.article-content .card-excerpt {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #6b82a7;
+    margin: 0;
+
+}
