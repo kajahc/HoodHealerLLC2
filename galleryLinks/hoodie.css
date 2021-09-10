@@ -1,13 +1,42 @@
-body {
-    font-size: 100%;
-    font-size: 16px;
-    line-height: 1.5;
-    background: #f0f4fb;
+
+div.trademark > nav#original.navigation, h1 {
+  text-align: center;
+  width: 100%;
 }
+/* Figure out how to move content down from under logos */
+div.trademark > div.blackLogo {
+    position: absolute;
+    top: 0;
+    left: 0;
+  image-resolution: from-image 300dpi;
+  padding-bottom: 10px;
+}
+div.trademark > div.pinkLogo {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+div.trademark > nav#original.navigation > ul > li {
+  display: inline;
+}
+
+div.trademark > a.backBtn {
+    position:fixed;
+    display: block;
+}
+/* body {
+    
+} */
 
 .site-container {
     margin: 2rem auto;
     max-width: calc(100% - 80px);
+font-size: 100%;
+    font-size: 16px;
+    line-height: 1.5;
+    /* background: #f0f4fb; */
+    padding-top: 100px;
 }
 
 .article-container {
@@ -60,4 +89,19 @@ body {
     color: #6b82a7;
     margin: 0;
 
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.backBtn {
+  background-color: #f1f1f1;
+  color: black;
 }

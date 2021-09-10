@@ -1,8 +1,9 @@
 
 div.trademark > nav#original.navigation, h1 {
   text-align: center;
+  width: 100%;
 }
-/* Figure out how to move content down */
+/* Figure out how to move content down from under logos */
 div.trademark > div.blackLogo {
     position: absolute;
     top: 0;
@@ -20,6 +21,10 @@ div.trademark > nav#original.navigation > ul > li {
   display: inline;
 }
 
+div.trademark > a.backBtn {
+    position:fixed;
+    display: block;
+}
 /* body {
     
 } */
@@ -30,7 +35,9 @@ div.trademark > nav#original.navigation > ul > li {
 font-size: 100%;
     font-size: 16px;
     line-height: 1.5;
-    background: #f0f4fb;}
+    /* background: #f0f4fb; */
+    padding-top: 100px;
+}
 
 .article-container {
     display:  grid;
@@ -82,4 +89,20 @@ font-size: 100%;
     color: #6b82a7;
     margin: 0;
 
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.backBtn {
+  background-color: #f1f1f1;
+  color: black;
 }

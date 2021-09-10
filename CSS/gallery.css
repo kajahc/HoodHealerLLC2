@@ -2,7 +2,7 @@
 .grid-container {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(4, 1fr);
+  /* grid-template-rows: repeat(4, 1fr); */
 }
 
 nav#original.navigation,
@@ -42,7 +42,7 @@ width: 100% ;
 /* Gallery code below  */
 .cards {
   margin: 0 auto;
-  max-width: 1000px; 
+  /* max-width: 1000px;  */
   display: grid;
    grid-template-columns: repeat(5, 1fr);
    grid-template-rows: subgrid;
@@ -97,3 +97,7 @@ width: 100% ;
 .card__link :hover {
   text-decoration: underline;
 }  
+
+h1 {
+  padding: 10px;
+}

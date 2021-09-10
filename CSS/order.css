@@ -71,3 +71,7 @@ div.dimensions {
     grid-column: 3 / 10;
     grid-row: 3/4;
 } */
+table > thead {
+ font-weight: 600;
+}
+
