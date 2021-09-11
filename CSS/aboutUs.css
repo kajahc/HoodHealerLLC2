@@ -16,6 +16,7 @@ nav#original.navigation {
   grid-row: 1 / 2;
   text-align: center;
  
+ 
 }
 
 div .blackLogo {
@@ -41,6 +42,7 @@ footer {
 
 li {
   display: inline;
+   padding-right: 50px;
 }
 /* Decrease space between blockquote and  About us title and nav*/
 blockquote {

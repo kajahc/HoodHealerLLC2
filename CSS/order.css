@@ -24,6 +24,7 @@ div.pinkLogo {
 ul li {
   display: inline;
   list-style: none;
+   padding-right: 50px;
 }
 /* Footer not responding to grid dimensons */
 footer {
