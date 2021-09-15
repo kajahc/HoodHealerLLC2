@@ -2,7 +2,7 @@
 .grid-container {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(4, 1fr);
+  /* grid-template-rows: repeat(4, 1fr); */
 }
 nav#original.navigation,
 h1 {
@@ -46,7 +46,7 @@ h1 {
     grid-column: 1 / 7;
     grid-row: 2 / 4; 
 }*/
-body > div.grid-container > div#partOne.container {
+/* body > div.grid-container > div#partOne.container {
   grid-column: 1 / 7;
   grid-row: 2 / 4;
 }
@@ -54,7 +54,7 @@ body > div.grid-container > div#partOne.container {
 div.grid-container > div#partTwo.container {
   grid-column: 7 / 13;
   grid-row: 2 / 4;
-}
+} */
 
 /* div#product-choice.container >h2#product-Choice.heading {
     text-align: center;
@@ -63,3 +63,21 @@ div.grid-container > div#partTwo.container {
 grid-column: 7 / 13;
 grid-row:  2 / 4;
 } */
+
+form#client-name {
+  display: inline-block;
+grid-column: 1/5;
+grid-row: 2/3;
+}
+
+form#client-billing-address {
+  display: inline-block;
+grid-column: 5/9;
+grid-row: 2/3;
+}
+
+form#client-mailing-address {
+  display: inline-block;
+grid-column: 9/13;
+grid-row: 2/3;
+}

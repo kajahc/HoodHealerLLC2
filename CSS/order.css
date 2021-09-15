@@ -76,3 +76,7 @@ table > thead {
  font-weight: 600;
 }
 
+button {
+  grid-column: 1 / 13;
+  grid-row: 2/3;
+}

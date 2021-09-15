@@ -40,21 +40,27 @@
           id="Pink"
         />
       </div>
-
+      
       <div class="container" id="partOne">
-        <div class="container" id="name">
-          <h2>Name</h2>
-          <label for="Fname">First Name:</label>
-          <input type="text" id="Fname" name="first-name" />
+     <form id="client-name">   
+       <div class="container" id="name">
+          <fieldset>
+            <h2>Name</h2>
+                    <label for="fname">First Name:</label>
+          <input type="text" id="fname" name="first-name" />
 
           <label for="MInitial">Middle Initial:</label>
           <input type="text" id="MInitial" name="middle-initial" />
 
-          <label for="Lname">Last Name:</label>
-          <input type="text" id="Lname" name="last-name" />
+          <label for="lname">Last Name:</label>
+          <input type="text" id="lname" name="last-name" />
         </div>
-
-        <div class="container" id="billing-address">
+        </fieldset>
+      </form>  
+      <br><br>
+       <form id="client-billing-address">
+            <fieldset> 
+              <div class="container" id="billing-address">
           <h2 class="heading" id="billingAddress">Billing Address</h2>
           <label for="Street-address">Street Address:</label>
           <input type="text" id="Street-address" name="StreetAdress" />
@@ -64,9 +70,7 @@
           <br />
           <label for="city">City:</label>
           <input type="text" id="city" name="city" />
-
-          <form>
-            <fieldset>
+          
               <label for="state">State</label>
               <select id="state" name="state">
                 <option value="---">---</option>
@@ -130,13 +134,13 @@
                 <option value="Wisconsin">Wisconsin</option>
                 <option value="Wyoming">Wyoming</option>
               </select>
-            </fieldset>
-          </form>
-
-          <label for="zip-code">Zip Code:</label>
+              
+              <label for="zip-code">Zip Code:</label>
           <input type="number" id="zip-code" name="zipcode" />
 
-          <input
+            </fieldset>
+          </form>
+         <input
             type="checkbox"
             id="mailing-address"
             name="mailingaddress"
@@ -146,9 +150,12 @@
             Mailing address is the same as billing address.</label
           ><br />
 
+
+<form id="client-mailing-address">
+              <fieldset>
           <div class="container" id="mailing_address">
             <h2 class="heading" id="mailingAddress">Mailing Address</h2>
-
+            
             <label for="Street_address">Street Address:</label>
             <input type="text" id="Street_address" name="StreetAdress" />
 
@@ -161,8 +168,7 @@
             <label for="City">City:</label>
             <input type="text" id="City" name="city" />
 
-            <form>
-              <fieldset>
+            
                 <label for="State">State</label>
                 <select id="State" name="state">
                   <option value="---">---</option>
@@ -231,11 +237,58 @@
           </div>
         </div>
       </div>
-      <div class="container" id="partTwo">
+     <div class="container" id="partTwo">
         <div class="container" id="product-choice">
           <h2 class="heading" id="product-Choice">Choose your product:</h2>
-          <form>
-            <input type="radio" id="Hat" name="Product" value="HAT" />
+          <form id="order-form">
+
+            
+  <label for="products">Choose the article of clothing:</label>
+  <select name="products" id="products">
+    <option value="shirt">Shirt</option>
+    <option value="hoodie">Hoodie</option>
+    <option value="hat">Hat</option>
+    <option value="pants">Pants</option>
+      <option value="jogging suit">Jogging Suit</option>
+        <option value="onesie">Onsie</option>
+  </select>
+  <br><br>
+             
+  <label for="product-size">Choose the size of clothing (where applicable):</label>
+  <select name="product-size" id="product-size">
+    <option value="small">Small</option>
+    <option value="medium">Medium</option>
+    <option value="large">Large</option>
+    <option value="X-large">X-Large</option>
+      <option value="XX-large">XX-Large</option>
+        <option value="XXX-large">XXX-Large</option>
+         <option value="XXXX-large">XXXX-Large</option>
+      <option value="XXXXX-large">XXXXX-Large</option>
+        <option value="not-applicable">n/a</option>
+  </select>
+  <br><br>
+
+  <label for="product-color">Choose the color of the article of clothing:</label>
+  <select name="product-color" id="product-color">
+    <option value="black">Black</option>
+    <option value="white">White</option>
+      </select>
+  <br><br>
+ 
+ <label for="product-style">Choose the style of logo:</label>
+  <select name="product-style" id="product-style">
+    <option value="complete-logo">Complete Logo</option>
+    <option value="mask-only">Mask Only</option>
+     </select>
+  <br><br>
+
+<label for="logo-color">Choose the color of logo:</label>
+  <select name="logo-color" id="logo-color">
+    <option value="pink">Pink</option>
+    <option value="black">Black</option>
+     </select>
+  <br><br>
+              <!--<input type="radio" id="Hat" name="Product" value="HAT" />
             <label for="Hat">Hat</label><br />
 
             <input type="radio" id="Shirt" name="Product" value="SHIRT" />
@@ -300,21 +353,21 @@
             <!-- <input type="radio" id="Custom" name="logoColor" value="CUSTOM">
                       <label for="Custom">Custom</label> -->
           </form>
-                    <h2 class="heading" id="logo-design">Choose your style of logo:</h2>
+                    <!-- <h2 class="heading" id="logo-design">Choose your style of logo:</h2> -->
 
 <form>
-            <input type="radio" id="only-mask" name="logoDesign" value="Mask" />
+            <!-- <input type="radio" id="only-mask" name="logoDesign" value="Mask" />
             <label for="only-mask">Only Mask</label><br />
 
             <input type="radio" id="complete-logo" name="logoDesign" value="Complete" />
-            <label for="complete-logo">Complete Logo</label><br />
+            <label for="complete-logo">Complete Logo</label><br /> -->
             <!-- <input type="radio" id="Custom" name="logoColor" value="CUSTOM">
                       <label for="Custom">Custom</label> -->
                       <div class="quantity buttons_added">
 	<input type="number" step="1" min="0" max="" name="quantity" value="0" title="Qty" class="input-text qty text" size="4" pattern="" inputmode="">
 </div>
           </form>
-          <input type="submit" value="Submit" />
+          <input type="submit" value="Add to Cart" />
         </div>
       </div>
       <footer>
